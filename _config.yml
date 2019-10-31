@@ -1,7 +1,7 @@
 # Site
-title: Halve
+title: Hyeonsuk
 description: Stylish, Two-Column Jekyll Theme
-url: https://taylantatli.github.io/Halve
+url: https://hyeonsuk.github.io/
 logo: halve.png                                       # Site logo
 locale: en_US
 
@@ -29,12 +29,12 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:             qu3230@gmail.com
 #google.plus:        username
-twitter:            username
-#facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#twitter:            username
+facebook:           username
+github:             https://github.com/hyeonsuk
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
@@ -52,7 +52,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+#behance:           username
 
 # Gems
 gems:

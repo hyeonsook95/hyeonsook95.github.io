@@ -1,10 +1,6 @@
 ---
 layout: home
 ---
-# About Theme
+# Hello World!
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
-
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
-
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+안녕하세요! 주니어 개발자의 개인 블로그입니다. 새로 배운것을 공부, 적용하면서 기록하기 위한 용도의 블로그입니다. :D

@@ -1,14 +1,14 @@
 - title: Busanin
   url: https://github.com/hyeonsook95/busanin
-  image: images/
+  image: images/projects/busanin.jpg
   completed: true
 
 - title: Webmail System
   url: https://github.com/hyeonsook95/webmail-system
-  image: images/
+  image: images/projects/webmail-system.jpg
   completed: true
 
 - title: Asvn
   url: https://github.com/hyeonsook95/asvn
-  image: images/
+  image: images/projects/asvn.jpg
   completed: true

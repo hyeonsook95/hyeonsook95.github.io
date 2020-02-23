@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SQL Optimizer"
-date: 2020-02-22
+date: 2020-02-23
 excerpt: "SQL에서 Optimizer이란?"
 categories:
   - SQL

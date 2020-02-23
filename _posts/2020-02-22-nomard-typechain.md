@@ -29,25 +29,30 @@ tag:
     age = 26,
     gender = "female;
    ```
+
 ## export {};  
+
 위 코드에서 이름을 선언할 수 없다고 뜬다면, 이 파일이 모듈인걸 알리기 위해 export{};를 선언해주면 됨.
- ```typescript
- ...
+
+```typescript
+...
 
 export {};
 ```
 
 ## function parameter 을 optional 하도록
+
 해당 파라미터 값을 받을 수도 받지 않을 수도 있도록 해줌.
    * `[parameter_name]?`
- ```typescript
- const name="hyeonsook",
-  age = 26,
-  gender = "female;
 
- const hello = (name, age, gender?) => {
-     ...
- }
+```typescript
+const name="hyeonsook",
+ age = 26,
+ gender = "female;
+
+const hello = (name, age, gender?) => {
+    ...
+}
 
 hello(name, age);
 ```
@@ -59,6 +64,7 @@ hello(name, age);
 파라미터를 설정하는 방법은 2가지가 있음.
 
 첫 번째로 파라미터로 사용할 변수를 먼저 선언해주는 방법.
+
 ```typescript
 const name="hyeonsook",
   age = 26,
@@ -71,6 +77,7 @@ const hello = (name, age, gender) => {
 
 두 번째는 함수를 선언할 때 변수의 타입을 설정하는 방법.  
    * `[parameter_name]: [datatype]`
+
 ```typescript
 const hello = (name: string, age: number, gender: string) => {
     return `Hello ${name}, ${age}, ${gender}`;
@@ -90,7 +97,6 @@ const hello = (name: string, age: number, gender: string): string => {
 ## npm start
 
 typescript를 compile하는 과정을 자동화하자.
-
 
 ### TSC watch 패키지 설치.
 

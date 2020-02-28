@@ -2,12 +2,13 @@
 layout: post
 title:  "Airbnb #0 #1"
 date:   2020-02-27
-excerpt: "Academy|Nomard Coder Airbnb 강의 #0 #1"
+excerpt: "Academy|Nomad Coder Airbnb 강의 #0 #1"
 categories: 
  -Course
 tag:
  - django
  - pipenv
+ - nomadcoders
 ---
 
 ## Flask

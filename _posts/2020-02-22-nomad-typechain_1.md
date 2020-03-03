@@ -2,7 +2,7 @@
 layout: post
 title:  "Typechain #3 #4"
 date:   2020-02-22
-excerpt: "Academy|Nomard Coder Typechain 강의 #3 #4"
+excerpt: "Academy|Nomad Coder Typechain 강의 #3 #4"
 categories: 
  -Course
 tag:

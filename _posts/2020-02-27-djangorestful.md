@@ -14,10 +14,16 @@ tag:
 ## DRF
 
 ### DRF 설치
+* `pipenv install djangorestframework`: 가상환경 매니저를 통해 local하게 설치하기 위해 pipenv를 사용하였다. 
+   * global하게 설치하고 싶다면 `pip install`을 사용하면 된다.
 
 ```linux
 > pipenv install djangorestframework
 
+...(생략)
+Success!
+Updated Pipfile.lock (d65c54)!
+Installing dependencies from Pipfile.lock (d65c54)
 ```
 
 ### Django 설정
@@ -31,3 +37,5 @@ INSTALLED_APPS = [
 ```
 
 ---
+* http://raccoonyy.github.io/tag/django-rest-framework-3/index.html
+* https://www.django-rest-framework.org/tutorial/quickstart/

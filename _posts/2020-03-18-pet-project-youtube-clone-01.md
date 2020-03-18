@@ -4,9 +4,10 @@ title:  "DRF Project, Youtube Clone"
 date:   2020-03-18
 excerpt: "DRF Project, 기능 및 Model 설계"
 categories: 
- -TIL
+ - Project
 tag:
- - til
+ - project
+ - django
 ---
 
 요즘 DRF에 대해 공부하고 있다. 그래서 공부하는 김에 프로젝트도 함께 진행해보자. 사실 깃허브 repository는 3일 전에 커밋했는데, 포토폴리오 수정이 끝이 보이지 않아서.. 이제서야 올린다.

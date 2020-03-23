@@ -145,3 +145,6 @@ django = "==2.2.5"
 python_version = "3.7"
 
 ```
+
+---
+- https://academy.nomadcoders.co/

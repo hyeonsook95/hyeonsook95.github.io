@@ -88,3 +88,7 @@ tag:
    * form을 보여주거나 upload 등
 * `urls.py`(만들어 넣어야 하는 파일): 프로젝트 폴더(config)의 urls.py의 기능을 application 별로 분리하여 관리하기 위한 파일
    * 프로젝트 폴더의 urls.py에서 application의 urls.py를 import하여 사용한다.
+
+
+---
+- https://academy.nomadcoders.co/

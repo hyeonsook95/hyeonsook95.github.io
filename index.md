@@ -7,4 +7,4 @@ layout: home
 
 아래 링크에서 포토폴리오를 다운받으실 수 있습니다!
 
-<a id="raw-url" href="https://raw.githubusercontent.com/hyeonsook95/hyeonsook95.github.io/master/_data/PROTFOLIO.pdf">포토폴리오</a>
+<a id="" href="./_data/PROTFOLIO.pdf" download>포토폴리오</a>

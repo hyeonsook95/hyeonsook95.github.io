@@ -7,4 +7,4 @@ layout: home
 
 아래 링크에서 포토폴리오를 다운받으실 수 있습니다!
 
-<a id="" href="./_data/PROTFOLIO.pdf" download>포토폴리오</a>
+<a id="" href="./_data/PORTFOLIO.pdf" download>포토폴리오</a>

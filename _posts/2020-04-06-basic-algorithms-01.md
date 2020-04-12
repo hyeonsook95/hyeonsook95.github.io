@@ -2,7 +2,7 @@
 layout: post
 title:  "Basic Algorithms 01"
 date:   2020-04-06
-excerpt: "알고리즘 기초"
+excerpt: "알고리즘이란, 시간복잡도, 언어별 입출력"
 categories: 
  - Basic
 tag:

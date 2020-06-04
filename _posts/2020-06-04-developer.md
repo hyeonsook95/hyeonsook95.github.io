@@ -39,6 +39,8 @@ tag:
 * [로그데이터 다루기](https://12bme.tistory.com/476?category=737765)
 * [모바일 앱 로그 분석](https://medium.com/myrealtrip-product/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%95%B1-%EB%A1%9C%EA%B7%B8%EB%B6%84%EC%84%9D-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%8B%9C%EC%9E%91%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C-13b8109df196)
 * [한시간에 만드는 대용량 로그 수집 시스템](https://bcho.tistory.com/1158)
+* [로그 데이터로 유저 이해하기](https://woowabros.github.io/woowabros/2017/07/30/logdata.html)
+* [ELK 셋팅부터 알람까지](https://woowabros.github.io/experience/2020/01/16/set-elk-with-alarm.html)
 
 
 ---

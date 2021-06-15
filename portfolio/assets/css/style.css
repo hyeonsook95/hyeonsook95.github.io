@@ -1,0 +1,30 @@
+body {
+    margin: 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+.section {
+    padding: 5%;
+    border-bottom: thin solid black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.career .date {
+}
+
+.career .content {
+}

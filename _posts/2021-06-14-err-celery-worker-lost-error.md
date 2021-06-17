@@ -8,7 +8,7 @@ tag:
  - pool
 ---
 
-# 작성중
+# 작성중...👨‍💻
 
 Celery로 크롤링을 돌려놓았는데, 크롤링이 되지 않았다. 확인해보니 Celery 데몬은 activate 했으나, top으로 확인한 결과 처리하고 있는 task가 평균 1.5였는데, 0.5로 줄어있었다. 거기다 Celery Worker의 로그는 남고 있지 않았고, Celery Beat는 정상동작하여 매 분동안 신호를 보내는 로그가 남아 있었다.
 
@@ -17,6 +17,8 @@ Celery로 크롤링을 돌려놓았는데, 크롤링이 되지 않았다. 확인
 ## 로그 분석
 
 ```
+[2021-06-13 18:16:39,693: ERROR/MainProcess] Process 'ForkPoolWorker-15' pid:23092 exited with 'signal 6 (SIGABRT)'
+...
 [2021-06-13 18:16:39,719: ERROR/MainProcess] Task handler raised error: WorkerLostError('Worker exited prematurely: signal 6 (SIGABRT).',)
 Traceback (most recent call last):
   File "~/python3.6/site-packages/billiard/pool.py", line 1267, in mark_as_worker_lost
@@ -98,3 +100,6 @@ https://docs.celeryproject.org/en/3.1/userguide/workers.html
 
 SIGABRT, 현재 프로세스가 abort 함수를 호출할 때 보냄. 비정상적인 종료가 됨. 이것을 받으면 코어 덤프하고 종료.
 
+`--max-tasks-per-child=1`
+
+`https://github.com/celery/celery/issues/5120`

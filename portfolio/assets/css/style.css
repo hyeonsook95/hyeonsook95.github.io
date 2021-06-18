@@ -1,5 +1,6 @@
 body {
-    margin: 10%;
+    max-width: 50em;
+    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -15,16 +16,31 @@ body a {
 
 .section {
     padding: 5%;
-    border-bottom: thin solid black;
+    border-bottom: thin solid gray;
 }
 
-.row {
+.section-title {
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-subtitle {
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+}
+.skill-list {
+    font-family: 'Lato', sans-serif;
+}
+.skill {
+    font-weight: 300;
+    font-size: large;
+
+}
+
+.project {
+}
+
+.education {
     display: flex;
     justify-content: space-between;
-}
-
-.career .date {
-}
-
-.career .content {
 }

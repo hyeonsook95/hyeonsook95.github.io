@@ -34,10 +34,22 @@ body a {
 .skill {
     font-weight: 300;
     font-size: large;
-
 }
 
-.project {
+.project-image {
+    margin: 1em;
+    width: 12em;
+    height: auto;
+}
+
+.project-skill {
+    font-weight: 300;
+    font-size:medium;
+}
+
+.project-youtube {
+    width: 50em;
+    height: 30em;
 }
 
 .education {

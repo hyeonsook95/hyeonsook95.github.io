@@ -16,191 +16,201 @@
 </head>
 
 <body>
-    <div class="section">
-        <h2 class="section-title">📝 About me</h2>
-        <h3>신입 개발자 하현숙</h3>
-        <div>
-            <p>협업을 통한 성장에 관심이 많습니다. 최근에는 사용자의 행동 분석과 문제 해결을 위한 로그 시스템에 대해 관심을 갖고 공부중입니다. </p>
-        </div>
-        <div>
-            <h3 class="section-subtitle">Contact</h3>
-            <div><a href="">이메일 : qu3230@gmail.com</a></div>
-            <div><a href="https://github.com/hyeonsook95">깃허브 : https://github.com/hyeonsook95</a></div>
-            <div><a href="https://hyeonsook95.github.io">블로그 : https://hyeonsook95.github.io</a></div>
-        </div>
+    <div class="sidebar">
+        <div class="sidebar-index"><a href="#About-me">About me</a></div>
+        <div class="sidebar-index"><a href="#Skills">Skills</a></div>
+        <div class="sidebar-index"><a href="#Projects">Projects</a></div>
+        <div class="sidebar-index"><a href="#Education">Education</a></div>
     </div>
-    <div class="section skill-list">
-        <h2 class="section-title">📌 Skills</h2>
-        <h3 class="section-subtitle">Backend</h3>
-        <ul class="skill">
-            <li>• Python 3</li>
-            <li>• Django, Django Rest Framework, Celery</li>
-            <li>• Nginx, uWSGI</li>
-            <li>• Git, GitHub</li>
-            <li>• Redis, PostgreSQL</li>
-        </ul>
-        <h3 class="section-subtitle">Frontend</h3>
-        <ul class="skill">
-            <li>• HTML5, CSS</li>
-            <li>• React Native, Javascript</li>
-            <li>• Redux(React-redux, Redux-toolkit)</li>
-        </ul>
-        <h3 class="section-subtitle">Collaboration</h3>
-        <ul class="skill">
-            <li>• Git, GitHub</li>
-            <li>• Slack</li>
-            <li>• Trello</li>
-        </ul>
-    </div>
-    <div class="section">
-        <h2 class="section-title">💼 Projects</h2>
-        <ul>
-            <li class="project">
-                <h3 class="project-title">&#9757; 헤일링 (2020.11 ~ )</h3>
-                <div class="project-content">
-                    <h4 class="project-subtitle">프로젝트 설명</h4>
-                    <div>
-                        <p>인터넷의 세일 정보를 한 곳에서 모아 보여주는 어플리케이션.</p>
-                        <p>비동기 작업 큐 프레임워크인 Celery를 사용하여 비동기적으로 인터넷 상의 여러 곳에 분포되어 있는 세일 정보 글을 Scrapy를 통해 가져와 보여줌.</p>
+    <div class="content">
+        <div class="section" id="About-me">
+            <h2 class="section-title">📝 About me</h2>
+            <h3>신입 개발자 하현숙</h3>
+            <div>
+                <p>협업을 통한 성장에 관심이 많습니다. 최근에는 사용자의 행동 분석과 문제 해결을 위한 로그 시스템에 대해 관심을 갖고 공부중입니다. </p>
+            </div>
+            <div>
+                <h3 class="section-subtitle">Contact</h3>
+                <div><a href="">이메일 : qu3230@gmail.com</a></div>
+                <div><a href="https://github.com/hyeonsook95">깃허브 : https://github.com/hyeonsook95</a></div>
+                <div><a href="https://hyeonsook95.github.io">블로그 : https://hyeonsook95.github.io</a></div>
+            </div>
+        </div>
+        <div class="section skill-list" id="Skills">
+            <h2 class="section-title">📌 Skills</h2>
+            <h3 class="section-subtitle">Backend</h3>
+            <ul class="skill">
+                <li>• Python 3</li>
+                <li>• Django, Django Rest Framework, Celery</li>
+                <li>• Nginx, uWSGI</li>
+                <li>• Git, GitHub</li>
+                <li>• Redis, PostgreSQL</li>
+            </ul>
+            <h3 class="section-subtitle">Frontend</h3>
+            <ul class="skill">
+                <li>• HTML5, CSS</li>
+                <li>• React Native, Javascript</li>
+                <li>• Redux(React-redux, Redux-toolkit)</li>
+            </ul>
+            <h3 class="section-subtitle">Collaboration</h3>
+            <ul class="skill">
+                <li>• Git, GitHub</li>
+                <li>• Slack</li>
+                <li>• Trello</li>
+            </ul>
+        </div>
+        <div class="section" id="Projects">
+            <h2 class="section-title">💼 Projects</h2>
+            <ul>
+                <li class="project">
+                    <h3 class="project-title">&#9757; 헤일링 (2020.11 ~ )</h3>
+                    <div class="project-content">
+                        <h4 class="project-subtitle">프로젝트 설명</h4>
                         <div>
-                            <img class="project-image"
-                                src='https://user-images.githubusercontent.com/23014708/115988817-5c0fa880-a5f6-11eb-9771-d27a5ce603f1.PNG' />
-                            <img class="project-image"
-                                src='https://user-images.githubusercontent.com/23014708/115988873-7e092b00-a5f6-11eb-8bc2-8268e54ebfe0.PNG' />
-                            <img class="project-image"
-                                src='https://user-images.githubusercontent.com/23014708/115988883-83667580-a5f6-11eb-8495-f330c3f14b99.PNG' />
+                            <p>인터넷의 세일 정보를 한 곳에서 모아 보여주는 어플리케이션.</p>
+                            <p>비동기 작업 큐 프레임워크인 Celery를 사용하여 비동기적으로 인터넷 상의 여러 곳에 분포되어 있는 세일 정보 글을 Scrapy를 통해 가져와 보여줌.</p>
+                            <div>
+                                <img class="project-image"
+                                    src='https://user-images.githubusercontent.com/23014708/115988817-5c0fa880-a5f6-11eb-9771-d27a5ce603f1.PNG' />
+                                <img class="project-image"
+                                    src='https://user-images.githubusercontent.com/23014708/115988873-7e092b00-a5f6-11eb-8bc2-8268e54ebfe0.PNG' />
+                                <img class="project-image"
+                                    src='https://user-images.githubusercontent.com/23014708/115988883-83667580-a5f6-11eb-8495-f330c3f14b99.PNG' />
+                            </div>
+
+                        </div>
+                        <h4 class="project-subtitle">기술 스택</h4>
+                        <div>
+                            <p class="project-subtitle">Backend</p>
+                            <img class="project-structure"
+                                src="https://user-images.githubusercontent.com/23014708/122755858-92089a80-d2d0-11eb-95ea-c3d74bde51ac.jpg" />
+                            <ul class="project-skill">
+                                <li>• Python 3</li>
+                                <li>• Django, Django Rest Framework</li>
+                                <li>• Celery, Scrapy</li>
+                                <li>• Nginx, uWSGI</li>
+                                <li>• Redis, PostgreSQL</li>
+                            </ul>
+                            <p class="project-subtitle">Frontend</p>
+                            <ul class="project-skill">
+                                <li>• React Native</li>
+                                <li>• Redux(React-redux, Redux-toolkit)</li>
+                            </ul>
+                        </div>
+                        <h4 class="project-subtitle">참조 링크 &#128279;</h4>
+                        <div>
+                            <a href="https://play.google.com/store/apps/details?id=com.hailing&hl=ko">
+                                • 안드로이드
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <h3 class="project-title">✌ 부산인 (2019.11 ~ 2020.01)</h3>
+                    <div class="project-content">
+                        <h4 class="project-subtitle">프로젝트 설명</h4>
+                        <div>
+                            <p>부산의 관광지와 맛집을 소개하고, 댓글과 메시지로 사용자간 소통할 수 있는 웹 서비스.</p>
+                            <p>캡스톤 디자인 과목을 수강하면서, 스타트업의 의뢰를 받아 만듬.</p>
+                            <p>관리자가 부산의 관광지와 맛집을 소개하는 글을 쓰고, 사용자는 해당 글의 댓글과 서로간의 메시지로 소통할 수 있도록 함.</p>
+                            <div>
+                                <img class="project-thumb"
+                                    src="https://user-images.githubusercontent.com/23014708/122759181-9e8ef200-d2d4-11eb-8768-6714931a9dc9.jpg" />
+                            </div>
+                        </div>
+                        <h4 class="project-subtitle">기술 스택</h4>
+                        <div>
+                            <p class="project-subtitle">Backend</p>
+                            <img class="project-structure"
+                                src="https://cloudfront.romexsoft.com/wp-content/uploads/2019/08/image0-1.png.webp" />
+                            <ul class="project-skill">
+                                <li>• Python 3</li>
+                                <li>• Django</li>
+                                <li>• Postgresql</li>
+                                <li>• AWS EB, AWS S3, Route53</li>
+                            </ul>
+                            <p class="project-subtitle">Frontend</p>
+                            <ul class="project-skill">
+                                <li>• HTML5, CSS</li>
+                            </ul>
                         </div>
 
-                    </div>
-                    <h4 class="project-subtitle">기술 스택</h4>
-                    <div>
-                        <p class="project-subtitle">Backend</p>
-                        <img class="project-structure"
-                            src="https://user-images.githubusercontent.com/23014708/122755858-92089a80-d2d0-11eb-95ea-c3d74bde51ac.jpg" />
-                        <ul class="project-skill">
-                            <li>• Python 3</li>
-                            <li>• Django, Django Rest Framework</li>
-                            <li>• Celery, Scrapy</li>
-                            <li>• Nginx, uWSGI</li>
-                            <li>• Redis, PostgreSQL</li>
-                        </ul>
-                        <p class="project-subtitle">Frontend</p>
-                        <ul class="project-skill">
-                            <li>• React Native</li>
-                            <li>• Redux(React-redux, Redux-toolkit)</li>
-                        </ul>
-                    </div>
-                    <h4 class="project-subtitle">참조 링크 &#128279;</h4>
-                    <div>
-                        <a href="https://play.google.com/store/apps/details?id=com.hailing&hl=ko">
-                            • 안드로이드
-                        </a>
-                    </div>
-                </div>
-            </li>
-            <li class="project">
-                <h3 class="project-title">✌ 부산인 (2019.11 ~ 2020.01)</h3>
-                <div class="project-content">
-                    <h4 class="project-subtitle">프로젝트 설명</h4>
-                    <div>
-                        <p>부산의 관광지와 맛집을 소개하고, 댓글과 메시지로 사용자간 소통할 수 있는 웹 서비스.</p>
-                        <p>캡스톤 디자인 과목을 수강하면서, 스타트업의 의뢰를 받아 만듬.</p>
-                        <p>관리자가 부산의 관광지와 맛집을 소개하는 글을 쓰고, 사용자는 해당 글의 댓글과 서로간의 메시지로 소통할 수 있도록 함.</p>
+                        <h4 class="project-subtitle">참조 링크 &#128279;</h4>
                         <div>
-                            <img class="project-thumb"
-                                src="https://user-images.githubusercontent.com/23014708/122759181-9e8ef200-d2d4-11eb-8768-6714931a9dc9.jpg" />
+                            <ul>
+                                <li><a href="https://github.com/hyeonsook95/busanin">
+                                        • 소스
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/embed/NV_fJ2Fq48E">
+                                        • 실행 동영상
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <h4 class="project-subtitle">기술 스택</h4>
-                    <div>
-                        <p class="project-subtitle">Backend</p>
-                        <img class="project-structure"
-                            src="https://cloudfront.romexsoft.com/wp-content/uploads/2019/08/image0-1.png.webp" />
-                        <ul class="project-skill">
-                            <li>• Python 3</li>
-                            <li>• Django</li>
-                            <li>• Postgresql</li>
-                            <li>• AWS EB, AWS S3, Route53</li>
-                        </ul>
-                        <p class="project-subtitle">Frontend</p>
-                        <ul class="project-skill">
-                            <li>• HTML5, CSS</li>
-                        </ul>
-                    </div>
-
-                    <h4 class="project-subtitle">참조 링크 &#128279;</h4>
-                    <div>
-                        <ul>
-                            <li><a href="https://github.com/hyeonsook95/busanin">
-                                    • 소스
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/embed/NV_fJ2Fq48E">
-                                    • 실행 동영상
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-            <li class="project">
-                <h3 class="project-title">👌 웹메일 시스템 (2018.03 ~ 2018.06)</h3>
-                <div class="project-content">
-                    <h4 class="project-subtitle">프로젝트 설명</h4>
-                    <div>
-                        <p>기존에 구현된 웹 메일 시스템을 유지보수화 과정(수리, 적응, 완전화, 예방 유지보수)을 통해 소프트웨어를 개선시키는 프로젝트.</p>
-                        <p>사용자 관리 기능(완전화 유지보수), 사용자 기능인 주소록 기능(완전화 유지보수), 비밀번호 보안 강화를 위한 조건 추가(예방 유지보수) 기능들을 설계 및 구현함.
-                        </p>
+                </li>
+                <li class="project">
+                    <h3 class="project-title">👌 웹메일 시스템 (2018.03 ~ 2018.06)</h3>
+                    <div class="project-content">
+                        <h4 class="project-subtitle">프로젝트 설명</h4>
                         <div>
-                            <img class="project-thumb"
-                                src="https://user-images.githubusercontent.com/23014708/122759178-9cc52e80-d2d4-11eb-91ab-e8e4d29aef49.jpg" />
+                            <p>기존에 구현된 웹 메일 시스템을 유지보수화 과정(수리, 적응, 완전화, 예방 유지보수)을 통해 소프트웨어를 개선시키는 프로젝트.</p>
+                            <p>사용자 관리 기능(완전화 유지보수), 사용자 기능인 주소록 기능(완전화 유지보수), 비밀번호 보안 강화를 위한 조건 추가(예방 유지보수) 기능들을 설계 및
+                                구현함.
+                            </p>
+                            <div>
+                                <img class="project-thumb"
+                                    src="https://user-images.githubusercontent.com/23014708/122759178-9cc52e80-d2d4-11eb-91ab-e8e4d29aef49.jpg" />
+                            </div>
+                        </div>
+                        <h4 class="project-subtitle">기술 스택</h4>
+                        <div>
+                            <p class="project-subtitle">Backend</p>
+                            <ul class="project-skill">
+                                <li>• Java</li>
+                                <li>• Apache James Server</li>
+                                <li>• MySQL</li>
+                            </ul>
+                            <p class="project-subtitle">Frontend</p>
+                            <ul class="project-skill">
+                                <li>• HTML 5</li>
+                                <li>• JSP</li>
+                            </ul>
+                        </div>
+                        <h4 class="project-subtitle">참조 링크 &#128279;</h4>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/hyeonsook95/webmail-system">
+                                        • 소스
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/embed/f_HfVW31HlA">
+                                        • 실행 동영상
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <h4 class="project-subtitle">기술 스택</h4>
-                    <div>
-                        <p class="project-subtitle">Backend</p>
-                        <ul class="project-skill">
-                            <li>• Java</li>
-                            <li>• Apache James Server</li>
-                            <li>• MySQL</li>
-                        </ul>
-                        <p class="project-subtitle">Frontend</p>
-                        <ul class="project-skill">
-                            <li>• JSP</li>
-                        </ul>
-                    </div>
-                    <h4 class="project-subtitle">참조 링크 &#128279;</h4>
-                    <div>
-                        <ul>
-                            <li>
-                                <a href="https://github.com/hyeonsook95/webmail-system">
-                                    • 소스
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/embed/f_HfVW31HlA">
-                                    • 실행 동영상
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="section">
-        <h2 class="section-title">🎓 Education</h2>
-        <ul>
-            <li class="education">
-                <div class="education-date">2014.03 ~ 2019.09</div>
-                <div class="education-title">동의대학교 컴퓨터소프트웨어 공학과</div>
-            </li>
-            <li class="education">
-                <div class="education-date">2020.03 ~ 2020.08</div>
-                <div class="education-title">동의대학교 컴퓨터소프트웨어 공학과 AI 연구실 보조</div>
-            </li>
-        </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="section" id="Education">
+            <h2 class="section-title">🎓 Education</h2>
+            <ul>
+                <li class="education">
+                    <div class="education-date">2014.03 ~ 2019.09</div>
+                    <div class="education-title">동의대학교 컴퓨터소프트웨어 공학과</div>
+                </li>
+                <li class="education">
+                    <div class="education-date">2020.03 ~ 2020.08</div>
+                    <div class="education-title">동의대학교 컴퓨터소프트웨어 공학과 AI 연구실 보조</div>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 

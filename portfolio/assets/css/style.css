@@ -1,5 +1,5 @@
 body {
-    max-width: 50em;
+    display: flex;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
@@ -13,8 +13,37 @@ body a {
     text-decoration: none;
     color: black;
 }
-
-.section {
+@media only screen and (min-width: 152px) and (max-width: 1024px) {
+    .sidebar{
+        display: none;
+    }
+    .content {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+@media not screen and (min-width: 152px) and (max-width: 1024px) {
+    html {
+        scroll-behavior: smooth;
+    }
+    .sidebar {
+        position: fixed;
+        margin: 0 10%;
+        width: 25%;
+    }
+    .sidebar .sidebar-index{
+        width: 100%;
+        margin: 10% 0;
+        font-weight: 700;
+        font-size: x-large;
+        font-family: 'Lato', sans-serif;
+    }
+    .content {
+        max-width: 50%;
+        margin: 0 25%;
+    }
+}
+.content .section {
     padding: 5%;
     border-bottom: thin solid gray;
 }
@@ -52,7 +81,6 @@ body a {
 .project-thumb {
     width: 100%;
 }
-
 .education {
     display: flex;
     justify-content: space-between;

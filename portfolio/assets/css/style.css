@@ -41,15 +41,16 @@ body a {
     width: 12em;
     height: auto;
 }
-
+.project-structure{
+    width: 100%;
+}
 .project-skill {
     font-weight: 300;
     font-size:medium;
 }
 
-.project-youtube {
-    width: 50em;
-    height: 30em;
+.project-thumb {
+    width: 100%;
 }
 
 .education {

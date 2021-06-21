@@ -13,6 +13,7 @@ body a {
     text-decoration: none;
     color: black;
 }
+
 @media only screen and (min-width: 152px) and (max-width: 1024px) {
     .sidebar{
         display: none;
@@ -45,7 +46,6 @@ body a {
         max-width: 50%;
         margin: 0 25%;
     }
-
 }
 .content .section {
     padding: 5%;
@@ -88,4 +88,13 @@ body a {
 .education {
     display: flex;
     justify-content: space-between;
+}
+
+@media print {
+    .no-print-page {
+        display: none;
+    }
+    .page-device {
+        page-break-after: always;
+    }
 }

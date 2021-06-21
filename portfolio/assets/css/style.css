@@ -21,6 +21,9 @@ body a {
         width: 100%;
         margin-right: 0;
     }
+    .education-title{
+        width: 80%;
+    }
 }
 @media not screen and (min-width: 152px) and (max-width: 1024px) {
     html {
@@ -42,6 +45,7 @@ body a {
         max-width: 50%;
         margin: 0 25%;
     }
+
 }
 .content .section {
     padding: 5%;

@@ -8,8 +8,6 @@ tag:
  - pool
 ---
 
-# 작성중...👨‍💻
-
 Celery로 크롤링을 돌려놓았는데, 크롤링이 되지 않았다. 확인해보니 Celery 데몬은 activate 했으나, top으로 확인한 결과 처리하고 있는 task가 평균 1.5였는데, 0.5로 줄어있었다. 거기다 Celery Worker의 로그는 남고 있지 않았고, Celery Beat는 정상동작하여 매 분동안 신호를 보내는 로그가 남아 있었다.
 
 마지막으로 남은 로그는 어제 6시경으로 워커 메인로그는 `WorkerLostError`를 마지막으로 동작하고 있지 않았다.
@@ -92,14 +90,22 @@ if cleaned:
 ...
 ```
 
-그렇다면 이건 뭐가 문제일까, `_job_terminated`가 `True`가 아니었을까? 
 
-`_job_terminated`가 `True`가 아닌 문제라면 `terminate_job`을 호출하면 된다.
+## 문제 추측
 
-https://docs.celeryproject.org/en/3.1/userguide/workers.html
+위의 검색 결과들로 추측해보자면
 
-SIGABRT, 현재 프로세스가 abort 함수를 호출할 때 보냄. 비정상적인 종료가 됨. 이것을 받으면 코어 덤프하고 종료.
+1. Memory leak이 일어났다.
+2. 예상치 못한 에러가 일어났을 경우, 종료하지 못하고 작동하다가 실행 시간이 만료되면 강제 종료된다.
 
-`--max-tasks-per-child=1`
 
-`https://github.com/celery/celery/issues/5120`
+## 문제 해결
+
+1. Except가 발생했을 때, process를 기다리지 않고, 종료하도록 했다.
+2. TimeLimit 시간을 늘였다.
+3. --max-tasks-per-child=1로 설정해주었다.
+
+--
+
+* [Duplicate job execution related to WorkerLostError: Worker exited prematurely: exitcode 155 on worker recycling](https://github.com/celery/celery/issues/5120)
+* [Celery does not release memory](https://stackoverflow.com/questions/17541452/celery-does-not-release-memory)
